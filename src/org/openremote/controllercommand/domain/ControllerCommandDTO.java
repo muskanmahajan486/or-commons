@@ -17,7 +17,7 @@ public class ControllerCommandDTO implements Serializable
    * from which we can infer the type from.
    */
   public enum Type {
-     UPLOAD_LOGS, UPDATE_CONTROLLER, INITIATE_PROXY, DOWNLOAD_DESIGN, UNLINK_CONTROLLER;
+     UPLOAD_LOGS, UPDATE_CONTROLLER, INITIATE_PROXY, DOWNLOAD_DESIGN, UNLINK_CONTROLLER, EXECUTE_DEVICE_COMMAND;
 
      /**
       * Gets a label for this type, this is useful for exporting. Label format is
